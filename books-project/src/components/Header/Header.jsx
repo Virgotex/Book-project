@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
 import SearchForm from "../SearchForm/SearchForm";
@@ -17,5 +18,7 @@ const Header = () => {
     </div>
   )
 }
+
+
 
 export default Header
