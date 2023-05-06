@@ -1,15 +1,17 @@
+// importing from various folders//
 import React from 'react';
 import "./About.css";
 import aboutImg from "../../images/about-img.jpg";
 
+//defining the about component//
 const About = () => {
   return (
+    //About section of the website //
     <section className='about'>
       <div className='container'>
         <div className='section-title'>
           <h2>About</h2>
         </div>
-
         <div className='about-content grid'>
           <div className='about-img'>
             <img src = {aboutImg} alt = "" />

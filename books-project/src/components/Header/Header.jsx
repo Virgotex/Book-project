@@ -1,10 +1,12 @@
-
+//import necessary modules from respective folders//
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
 import SearchForm from "../SearchForm/SearchForm";
 import "./Header.css";
 
+//defining the header component//
 const Header = () => {
+  //having divs to add some padding to the header component//
   return (
     <div className='holder'>
         <header className='header'>
